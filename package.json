@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "MernShop, A shoping platform developed using mern stack",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "node backend/server",
     "server": "nodemon backend/server",
@@ -20,7 +21,10 @@
   },
   "homepage": "https://github.com/Btocode/mernE-shop#readme",
   "dependencies": {
-    "express": "^4.18.1"
+    "colors": "^1.4.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.3.4"
   },
   "devDependencies": {
     "concurrently": "^7.2.1",
